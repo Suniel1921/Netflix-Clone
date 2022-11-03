@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(img/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0px;
+}
+
+.logo {
+    font-size: 60px;
+    color: #e50914;
+    margin-left: 34px;
+    margin-top: -30px;
+}
+
+.btn {
+    margin-right: 117px;
+    background: #e50914;
+    width: 91px;
+    height: 36px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.center {
+    color: white;
+    text-align: center;
+    margin: 94px 0px;
+}
+
+/* ------- Media Queris for header-part -------  */
+@media only screen and (max-width:1080px) {
+    .heading {
+        width: 628px;
+        margin-top: -132px;
+        position: absolute;
+        margin-left: 217px;
+    }
+    .para-1, .para-2{
+        font-size: 45px;
+        margin: 34px;
+    }
+
+    .input{
+        position: absolute;
+        margin-top: -126px;
+        margin-left: 104px;
+    }
+    .email{
+        width: 34px;
+        margin: 34px;
+    }
+
+}
+
+.heading {
+    font-size: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.para-1 {
+    font-size: 32px;
+    margin: 23px 0px;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.para-2 {
+    font-size: 30px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.input {
+    text-align: center;
+}
+
+.email {
+    width: 574px;
+    height: 76px;
+    outline: none;
+    border: none;
+    font-size: 34px;
+    border-radius: 5px;
+}
+
+.btn-2 {
+    width: 240px;
+    height: 76px;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    font-size: 34px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+hr {
+    height: 8px;
+}
+
+.main-section {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.left-sec {
+    display: block;
+    margin: auto;
+    font-size: 34px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.mid-sec {
+    font-size: 34px;
+    font-family: 'Cabin', sans-serif;
+    /* text-align: center; */
+    height: 216px;
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: 169px;
+}
+
+.last-section {
+    background-color: black;
+
+}
+
+video {
+    position: absolute;
+    margin-left: 94px;
+    margin-top: -281px;
+    width: 448px;
+
+}
+
+.last-sec {
+    background-color: black;
+}
+
+.para-3 {
+    color: white;
+    padding-top: 45px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+}
+
+#contact {
+    padding: 34px 0px;
+}
+
+#hr {
+    height: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    height: 234px;
+}
+
+.div {
+    padding: 55px 0px;
+    margin-right: 34px;
+    color: gray;
+    cursor: pointer;
+}
+
+.para-4 {
+    padding: 32px;
+    position: absolute;
+    margin-left: -1150px;
+    margin-top: -16px;
+    color: gray;
+    cursor: pointer;
+}
+
+.copyright {
+    color: gray;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-top: 180px;
+    margin-right: 92px;
+    font-size: 20px;
+}
+
+
+
+
+/* .faq{
+    text-align: center;   
+    color: white;
+}
+.acco{
+    color: white;
+}
+#accordian{
+    margin: 100px auto;
+    width: 600px;
+}
+#accordian{
+    list-style: none;
+    color: black;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: white;
+}
+#accordian li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #c20000;
+}
+
+#accordian li label span{
+    transform: rotate(90deg);
+    margin-left: 333px;
+    font-size: 22px;
+    color: gray;
+}
+
+#accordian label + input[type="radio"]{
+    display: none;
+}
+
+#accordian .content{
+    padding: 0 10px;
+    line-height: 27px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#accordian label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+} */
